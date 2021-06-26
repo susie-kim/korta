@@ -5,7 +5,7 @@ Intermediate I,G1.3,던,던/ETM
 Intermediate I,G1.4,(으)ㄴ 다음에,/ET (다음|후)
 Intermediate I,G1.5,(으)면 좋겠다,으?면/EC 좋/VA ([았었]/EP )?겠/EP
 Intermediate I,G2.1,(으)려고,으?려고/EC
-Intermediate I,G2.2,기(가) 쉽다/어렵다,기/ETN [^(\n|EC)]*(어렵|쉽|좋|싫|힘들)/VA
+Intermediate I,G2.2,기(가) 쉽다/어렵다,기/ETN [^(\n|EC)]*/MA.$ (어렵|쉽|좋|싫|힘들)/VA
 Intermediate I,G2.3,말고,말/VX 고/EC
 Intermediate I,G2.4,어/아도 되다,도/EC 되/VV
 Intermediate I,G2.4,(으)면 안 되다,"으?면/EC [^(\n|EC)]*안/.{2,3} 되/VV"
