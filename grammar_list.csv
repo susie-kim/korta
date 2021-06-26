@@ -40,7 +40,6 @@ Intermediate II,G8.1,지?,"지/[a-zA-Z]{2,3} \?/SF"
 Intermediate II,G8.2,ㄹ/을 테니까,ㄹ?테니까/EC
 Intermediate II,G8.3,느라고,느라고?/E[CF]
 Intermediate II,G8.4,(으)ㄴ/는/(으)ㄹ 줄 알다/모르다,줄/NNB [^\n]*(알|모르)
-Intermediate II,G9.1,하다 vs. 되다,
 Intermediate II,G9.2,게 하다,VV 게/EC 하/VV
 Intermediate II,G9.3,(으)ㄴ/는 거예요/거야,[ㄴ은는]/ETM [거것]/NNB (야/JKV|아냐/IC|아니야/NNP|이/VCP|아니/VCN)
 Intermediate II,G10.1,었/았다가,/EP 다가?/EC
