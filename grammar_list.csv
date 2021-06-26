@@ -8,7 +8,7 @@ Intermediate I,G2.1,(으)려고,으?려고/EC
 Intermediate I,G2.2,기(가) 쉽다/어렵다,기/ETN [^\n]*(어렵|쉽|좋|싫|힘들)/VA
 Intermediate I,G2.3,말고,말/VX 고/EC
 Intermediate I,G2.4,어/아도 되다,도/EC 되/VV
-Intermediate I,G2.4,(으)면 안 되다,"으?면/EC [^\n]* 안/.(2,3} 되/VV"
+Intermediate I,G2.4,(으)면 안 되다,"으?면/EC [^\n]*안/.{2,3} 되/VV"
 Intermediate I,G2.5,ㄴ/은/는 것 같다,[거것]/NNB 같/VA
 Intermediate I,G3.1,게 되다,/VV 게/EC 되/VV
 Intermediate I,G3.2,(으)면 되다,으?면/EC 안/MA.? 되/VV
@@ -50,7 +50,8 @@ Intermediate II,G10.5,어/아 버리다,[어아]/EC 버리
 Intermediate II,G11.1,나/ㄴ가/은가 보다,(나|ㄴ가)/EC 보/V
 Intermediate II,G11.2,기는 (하)다,"기/ETN ㄴ/JX .{1,4}/V"
 Intermediate II,G11.3,거나,거나/EC
-Intermediate II,G11.4,대요/(이)래요,ㄴ?대/E[CF]; /(NN?P|VC.) 래요?/E[CF]
+Intermediate II,G11.4,대요,ㄴ?대/E[CF] [.!?]/SF
+Intermediate II,G11.4,(이)래요,/(NN?P|VC.) 래요?/E[CF]
 Intermediate II,G11.5,(이)라면,\s라면/EC
 Intermediate II,G12.1,나요/ㄴ가요/은가요?,\s(나|ㄴ?가)요/E[CF]
 Intermediate II,G12.2,(으)ㄹ 걸 그랬다,ㄹ/ETM 걸/VV ㄹ/ETM 그렇
