@@ -1,69 +1,74 @@
 ﻿Level,No,Grammar,Pattern
-Intermediate I,G1.1,어/아지다,[어아]/EC 지/VX
-Intermediate I,G1.2,잖아요,잖아/E[CF]
-Intermediate I,G1.3,던,던/ETM
-Intermediate I,G1.4,(으)ㄴ 다음에,/ET (다음|후)
-Intermediate I,G1.5,(으)면 좋겠다,으?면/EC 좋/VA ([았었]/EP )?겠/EP
-Intermediate I,G2.1,(으)려고,으?려고/EC
-Intermediate I,G2.2,기(가) 쉽다/어렵다,기/ETN [^(\n|EC)]*/MA.$ (어렵|쉽|좋|싫|힘들)/VA
-Intermediate I,G2.3,말고,말/VX 고/EC
-Intermediate I,G2.4,어/아도 되다,도/EC 되/VV
-Intermediate I,G2.4,(으)면 안 되다,"으?면/EC [^(\n|EC)]*안/.{2,3} 되/VV"
-Intermediate I,G2.5,ㄴ/은/는 것 같다,[거것]/NNB 같/VA
-Intermediate I,G3.1,게 되다,/VV 게/EC 되/VV
-Intermediate I,G3.2,(으)면 되다,으?면/EC 안/MA.? 되/VV
-Intermediate I,G3.3,어/아 본 적이 있다/없다,보/VX+ㄴ/ET 적
-Intermediate I,G4.1,는 길,는/ETM 길/
-Intermediate I,G4.2,거든요,거든/EF
-Intermediate I,G4.4,(으)려면,으?려면/EC
-Intermediate I,G4.5,어/아야지요,야지/EF
-Intermediate I,G5.2,ㄴ/은/는 편이다,"편/.{2,3} (이/VCP|아니/VCN)"
-Intermediate I,G5.3,ㄴ/은/는지 알다/모르다,지/(EC|NNG) [^(\n|EC)]*(알|모르)/VV
-Intermediate I,G5.4,ㄴ/은 지 [시간] 되다,지/NNB [^(\n|EC)]*(오래되/VV|되/VV)
-Intermediate I,G5.5,다가,V[CVX] 다가/E[CF]
-Intermediate I,G6.1,plain style - statement,V[CVX] (었/EP )?다/EF ./SF
-Intermediate I,G6.1,plain style - question,V[CVX] (었/EP )?(니|냐)/EF ./SF
-Intermediate I,G6.1,plain style - command,V[CVX] [어아]라/E[CF] ./SF
-Intermediate I,G6.1,plain style - suggestion,V[CVX] 자/E[CF] ./SF
-Intermediate I,G6.3,기로 하다,기/(ETN|NNP) 로/JKB
-Intermediate I,G6.4,다고,다고/E[CF]
-Intermediate I,G6.4,(이)라고,/(NN.?|VCP|VCN) 라고/E[CF]
-Intermediate I,G6.4,냐고,냐고/E[CF]
-Intermediate I,G6.4,(으)라고,/V. (시/EP )?라고/E[CF]
-Intermediate I,G6.4,자고,자고/E[CF]
-Intermediate I,G6.5,아무리 어/아도,아무리/MA(.)*도
-Intermediate I,G7.1,어/아 보이다,/(VA|VCP|VCN) [어아]/EC 보이/VV
-Intermediate I,G7.3,어/아 있다,[어아]/EC 있/V.
-Intermediate I,G7.4,어/아 가지고,[어아]/EC 가지
-Intermediate I,G7.5,는 데(에),/V. 는/ETM 데/
-Intermediate II,G8.1,지?,"지/[a-zA-Z]{2,3} \?/SF"
-Intermediate II,G8.2,ㄹ/을 테니까,ㄹ?테니까/EC
-Intermediate II,G8.3,느라고,느라고?/E[CF]
-Intermediate II,G8.4,(으)ㄴ/는/(으)ㄹ 줄 알다/모르다,줄/NNB [^(\n|EC)]*(알|모르)
-Intermediate II,G9.2,게 하다,VV 게/EC 하/VV
-Intermediate II,G9.3,(으)ㄴ/는 거예요/거야,[ㄴ은는]/ETM [거것]/NNB (야/JKV|아냐/IC|아니야/NNP|이/VCP|아니/VCN)
-Intermediate II,G10.1,었/았다가,/EP 다가?/EC
-Intermediate II,G10.2,더라고요,더라고?요?/E[CF]
-Intermediate II,G10.3,어/아서 죽겠다,VA 어/EC 죽/VV 겠/EP
-Intermediate II,G10.4,기도 하다,기/ETN 도/JX 하
-Intermediate II,G10.5,어/아 버리다,[어아]/EC 버리
-Intermediate II,G11.1,나/ㄴ가/은가 보다,(나|ㄴ가)/EC 보/V
-Intermediate II,G11.2,기는 (하)다,"기/ETN ㄴ/JX .{1,4}/V"
-Intermediate II,G11.3,거나,거나/EC
-Intermediate II,G11.4,대요,ㄴ?대/E[CF] [.!?]/SF
-Intermediate II,G11.4,(이)래요,/(NN?P|VC.) 래요?/E[CF]
-Intermediate II,G11.5,(이)라면,\s라면/EC
-Intermediate II,G12.1,나요/ㄴ가요/은가요?,\s(나|ㄴ?가)요/E[CF]
-Intermediate II,G12.2,(으)ㄹ 걸 그랬다,ㄹ/ETM 걸/VV ㄹ/ETM 그렇
-Intermediate II,G12.3,(으)려다가,[ㄹ으]?려다가?/EC
-Intermediate II,G12.4,군(요)/구나,(구나|군요?)/E[CF]
-Intermediate II,G12.5,(이)든지,(NP|NNG) (이/VCP )?든지/EC
-Intermediate II,G13.1,ㄴ/은/는데도,[ㄴ은는]데/EC 도/JX
-Intermediate II,G13.2,(으)면 (으)ㄹ수록,[ㄹ을]수록/EC
-Intermediate II,G13.3,(으)ㄹ 뻔하다,[ㄹ을]/ETM 뻔하/V
-Intermediate II,G13.4,었/았더니,/EP 더니/EC
-Intermediate II,G14.1,다/(이)라면서?,[다라](면서요?|며)/EF [.!?]/SF
-Intermediate II,G14.2,자마자,/VV 자마자/EC
-Intermediate II,G14.3,(으)ㄹ까 봐,[ㄹ을]/ETM 까/NNG 보/V. 아
-Intermediate II,G14.4,(으)ㄴ/는/(으)ㄹ지,[ㄹ을ㄴ는]지/EC
-Intermediate II,G14.5,었/았으면 하다,으면/EC 하/V.
+KOR105,G1.1,ADJ어/아지다,[어아]/EC 지/VX
+KOR105,G1.2,잖아요,잖아/E[CF]
+KOR105,G1.3,던,던/ETM
+KOR105,G1.4,(으)면 좋겠다,으?면/EC 좋/VA ([았었]/EP )?겠/EP
+KOR105,G1.5,(으)ㄹ 때,[ㄹ을] 때/NNG
+KOR105,G2.1,VERB(으)려고,으?려고/EC
+KOR105,G2.2,VERB기(가) 쉽다/어렵다,기/ETN [^(\n|EC|EF)]*/MA.$ (어렵|쉽|좋|싫|힘들)/VA
+KOR105,G2.3,말고,말/VX 고/EC
+KOR105,G2.4,어/아도 되다,도/EC 되/V[VX]
+KOR105,G2.4,(으)면 안 되다,으?면/EC [^(\n|EC|EF)]*안/MAG 되/V[VX]
+KOR105,G2.5,ㄴ/은/는 것 같다,[거것]/NNB 같/VA
+KOR105,G3.1,VERB게 되다,/(VV|VX|XSV) 게/EC 되/V[VX]
+KOR105,G3.2,(으)면 되다,으?면/EC (안/MAG )?되/V[VX]
+KOR105,G3.3,었/았/ㅆ었,[었/았]/EP 었/EP
+KOR105,G3.4,어/아 본 적이 있다/없다,보/VX+ㄴ/ET 적
+KOR105,G3.5,(으)니까,으?니까/E[CF]
+KOR105,G4.1,VERB는 길,는/ETM 길/
+KOR105,G4.2,거든요,거든/EF
+KOR105,G4.4,VERB(으)려면,으?려면/EC
+KOR105,G4.5,어/아야지요,야지요?/EF
+KOR105,G5.2,ㄴ/은/는 편이다,"편/.{2,3} (이/VCP|아니/VCN)"
+KOR105,G5.3,ㄴ/은/는지 알다/모르다,지/(EC|NNG) [^(\n|EC|EF)]*(알|모르)/VV
+KOR105,G5.4,ㄴ/은 지 [시간] 되다,지/NNB [^(\n|EC|EF)]*(오래되/VV|되/VV)
+KOR105,G5.5,다가,/(VV|VX|XSV) 다가/E[CF]
+KOR105,G6.1,plain style - statement,(VCP|VCN|VV|VX|VA|XSA|XSV) (었/EP )?다/EF ./SF
+KOR105,G6.1,plain style - question,(VCP|VCN|VV|VX|VA|XSA|XSV) (었/EP )?(니|냐)/EF ./SF
+KOR105,G6.1,plain style - command,(VV|VX|XSV) [어아]라/E[CF] ./SF
+KOR105,G6.1,plain style - suggestion,(VV|VX|XSV) 자/E[CF] ./SF
+KOR105,G6.3,VERB기로 하다,기/(ETN|NNP) 로/JKB
+KOR105,G6.4,indirect speech - statement,다고/EC
+KOR105,G6.4,indirect speech - statement (copula),(NN.|VCP|VCN|걸/VV)? 라고/EC
+KOR105,G6.4,indirect speech - question,냐고/EC
+KOR105,G6.4,indirect speech - command,[^달]/V. (시/EP )?라고/EC
+KOR105,G6.4,indirect speech - request,달/VV 라고/EC
+KOR105,G6.4,indirect speech - suggestion,자고/E[CF]
+KOR105,G6.5,아무리 어/아도,아무리/MAG [^(\n|EF)]*[어아]도/EC
+KOR105,G7.1,ADJ어/아 보이다,/(VA|XSA|VCP|VCN) [어아]/EC 보이/VV
+KOR105,G7.3,VERB어/아 있다,[어아]/EC 있/V.
+KOR105,G7.4,어/아 가지고,[어아]/EC 가지
+KOR105,G7.5,는 데(에),/(VV|VX|XSV) 는/ETM 데/
+KOR107,G8.1,지?,"지/\w{2,3} \?/SF"
+KOR107,G8.2,ㄹ/을 테니까,ㄹ?테니까/EC
+KOR107,G8.3,VERB느라고,느라고?/E[CF]
+KOR107,G8.4,(으)ㄴ/는/(으)ㄹ 줄 알다/모르다,줄/NNB [^(\n|EC)]*(알|모르)
+KOR107,G9.2,게 하다,(VCP|VCN|VV|VX|VA|XSA|XSV) 게/EC 하/V[VX]
+KOR107,G9.3,(으)ㄴ/는 거예요/거야,[ㄴ은는]/ETM [거것]/NNB (야/JKV|아냐/IC|아니야/NNP|이/VCP|아니/VCN)
+KOR107,G10.1,었/았다가,/EP 다가?/EC
+KOR107,G10.2,더라고요,더라고?요?/E[CF]
+KOR107,G10.3,ADJ어/아서 죽겠다,(VA|XSA) 어/EC 죽/VV 겠/EP
+KOR107,G10.4,기도 하다,기/ETN 도/JX 하/V[VX]
+KOR107,G10.5,VERB어/아 버리다,[어아]/EC 버리
+KOR107,G11.1,나/ㄴ가/(으)ㄴ가 보다,(나|은|ㄴ가)/EC 보/V
+KOR107,G11.2,기는 (하)다,기/ETN [ㄴ는]/JX [^(\n|EC|EF)]*/(VCP|VCN|VV|VX|VA|XSA|XSV)
+KOR107,G11.3,거나,거나/EC
+KOR107,G11.4,대요,ㄴ?대/E[CF] [.!?]/SF
+KOR107,G11.4,(이)래요,/(NN?P|VC.) 래요?/E[CF]
+KOR107,G11.5,(이)라면,\s라면/EC
+KOR107,G12.1,나요/ㄴ가요/은가요?,\s(나|ㄴ?가)요/E[CF]
+KOR107,G12.2,(으)ㄹ 걸 그랬다,ㄹ/ETM 걸/VV ㄹ/ETM 그렇
+KOR107,G12.3,(으)려다가,[ㄹ으]?려다가?/EC
+KOR107,G12.4,군(요)/구나,(구나|군요?)/E[CF]
+KOR107,G12.5,(이)든지,(NP|NNG) (이/VCP )?든지/EC
+KOR107,G13.1,ㄴ/은/는데도,[ㄴ은는]데/EC 도/JX
+KOR107,G13.2,(으)면 (으)ㄹ수록,[ㄹ을]수록/EC
+KOR107,G13.3,(으)ㄹ 뻔하다,/(VV|VX|XSV|VA|XSA) [ㄹ을]/ETM 뻔
+KOR107,G13.4,었/았더니,/EP 더니/EC
+KOR107,G14.1,다/(이)라면서?,[다라](면서요?|며)/EF [.!?]/SF
+KOR107,G14.2,VERB자마자,/(VV|VX|XSV) 자마자/EC
+KOR107,G14.3,(으)ㄹ까 봐,[ㄹ을]/ETM 까/NNG 보/V. 아
+KOR107,G14.4,(으)ㄴ/는/(으)ㄹ지,[ㄹ을ㄴ는]지/EC
+KOR107,G14.5,었/았으면 하다,으면/EC 하/V.
+KOR107,E13.1,N만큼 / (으)ㄴ/는/(으)ㄹ 만큼,만큼/NNB
+KOR107,E13.2,VERBㄴ/는 바람에,[ㄴ는]/ETM 바람/
