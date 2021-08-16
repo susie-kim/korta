@@ -45,7 +45,7 @@ KOR107,G8.3,VERB느라고,느라고?/E[CF]
 KOR107,G8.4,(으)ㄴ/는/(으)ㄹ 줄 알다/모르다,줄/NNB [^(\n|EC)]*(알|모르)
 KOR107,G9.2,게 하다,(VCP|VCN|VV|VX|VA|XSA|XSV) 게/EC 하/V[VX]
 KOR107,G9.3,(으)ㄴ/는 거예요/거야,[ㄴ은는]/ETM [거것]/NNB (야/JKV|아냐/IC|아니야/NNP|이/VCP|아니/VCN)
-KOR107,G10.1,었/았다가,/EP 다가?/EC
+KOR107,G10.1,었/았다가,/EP 다가/EC
 KOR107,G10.2,더라고요,더라고?요?/E[CF]
 KOR107,G10.3,ADJ어/아서 죽겠다,(VA|XSA) 어/EC 죽/VV 겠/EP
 KOR107,G10.4,기도 하다,기/ETN 도/JX 하/V[VX]
