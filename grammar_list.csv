@@ -29,7 +29,7 @@ KOR105,G6.1,plain style - command,(VV|VX|XSV) [어아]라/E[CF] ./SF
 KOR105,G6.1,plain style - suggestion,(VV|VX|XSV) 자/E[CF] ./SF
 KOR105,G6.3,VERB기로 하다,기/(ETN|NNP) 로/JKB
 KOR105,G6.4,indirect speech - statement,다고/EC
-KOR105,G6.4,indirect speech - statement (copula),(NN.|VCP|VCN|걸/VV)? 라고/EC
+KOR105,G6.4,indirect speech - statement (copula),(NN.|VCP|VCN|걸/VV) 라고/EC
 KOR105,G6.4,indirect speech - question,냐고/EC
 KOR105,G6.4,indirect speech - command,[^달]/V. (시/EP )?라고/EC
 KOR105,G6.4,indirect speech - request,달/VV 라고/EC
