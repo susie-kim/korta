@@ -31,7 +31,7 @@ KOR105,G6.3,VERB기로 하다,기/(ETN|NNP) 로/JKB
 KOR105,G6.4,indirect speech - statement,다고/EC
 KOR105,G6.4,indirect speech - statement (copula),(/NN.|/VCP|/VCN|걸/VV) 라고/EC
 KOR105,G6.4,indirect speech - question,냐고/EC
-KOR105,G6.4,indirect speech - command,(V.|[^걸]/VV|[^달]/V. )(시/EP )?라고/EC
+KOR105,G6.4,indirect speech - command,(V.|[^걸]/VV|[^달]/V. )(시/EP )? 라고/EC
 KOR105,G6.4,indirect speech - request,달/VV 라고/EC
 KOR105,G6.4,indirect speech - suggestion,자고/E[CF]
 KOR105,G6.5,아무리 어/아도,아무리/MAG [^(\n|EF)]*[어아]도/EC
