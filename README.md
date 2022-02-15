@@ -30,7 +30,7 @@ You can choose a specific font to create wordcloud. The font must support Korean
 Keep in mind that linguistic aspects of your writing is just part of what makes your writing good or bad. This report only evaluates the extent of linguistic variety and complexity you attempted to achieve. It does not speak to the content or organization and tells little about the accuracy and effectiveness of your language use. 
 
 ## Download:
-[Click Here](https://www.dropbox.com/s/lnk8qs3ky5aisoq/korta.app.zip?dl=0)
+[Download linked file](https://www.dropbox.com/s/lnk8qs3ky5aisoq/korta.app.zip?dl=0)
 
 *Currently only available for MacOS with Python 3.9 installed. 
 
