@@ -2,12 +2,12 @@
 KOR102,G8.1,Seeking agreement: 지요?,지요/EF \?/SF
 KOR102,G9.2,Noun-modifying ADJ(으)ㄴ,([^없]/VA|XSA|VCP|VCN) [은ㄴ]/ETM
 KOR102,G9.5,Connective: 지만,지만/EC
-KOR102,G10.1,Connective: 는데,(VV|VX|XSV|없/VA|[밌있]/VA) 는데/EC
-KOR102,G10.1,Connective: (으)ㄴ데,([^없]/VA|[^있]/VA|XSA|VCP|VCN) [은ㄴ]데/EC
+KOR102,G10.1,Connective: (으)ㄴ/는데,(VV|VX|XSV|없/VA|[밌있]/VA) 는데/EC
+KOR102,G10.1,Connective: (으)ㄴ/는데,([^없]/VA|[^있]/VA|XSA|VCP|VCN) [은ㄴ]데/EC
 KOR102,G10.2,Expressing desire: VERB고 싶다/싶어 하다,(VV|VX|XSV|VCP) 고/EC 싶/VX
-KOR102,G10.3,Sentence ending 는데요,(VV|VX|XSV|없/VA|[밌있]/VA) 는데요?/EF
-KOR102,G10.3,Sentence ending (으)ㄴ데요,([^없]/VA|[^있]/VA|XSA|VCP|VCN) [은ㄴ]데요?/EF
-KOR102,G10.4; G12.1,Connective: 어서/아서,[어아]서/EC
+KOR102,G10.3,Sentence ending (으)ㄴ/는데요,(VV|VX|XSV|없/VA|[밌있]/VA) 는데요?/EF
+KOR102,G10.3,Sentence ending (으)ㄴ/는데요,([^없]/VA|[^있]/VA|XSA|VCP|VCN) [은ㄴ]데요?/EF
+KOR102,G10.4/G12.1,Connective: 어서/아서,[어아]서/EC
 KOR102,G10.5,Noun-modifying VERB는,(VV|VX|XSV) 는/ETM
 KOR102,G11.1,Progressive VERB고 있다,고/EC 있/VX
 KOR102,G11.2,Intentional (으)ㄹ래요(?),[을ㄹ]래요?/E[FC]
@@ -15,7 +15,7 @@ KOR102,G11.4,Asking opinion: ~(으)ㄹ까요?,[을ㄹ]까요?/EF
 KOR102,G12.2,Conjectural/intentional 겠,겠/EP
 KOR102,G12.3,Sentence ending 네요,네요?/EF
 KOR102,G12.5,Noun-modifying form VERB(으)ㄴ (past),(VV|VX|XSV) [은ㄴ]/ETM
-KOR102,G13.1; G16.3,Benefactive 어/아 주다/드리다,[어아]/EC (주|드리)/V[VX]
+KOR102,G13.1/G16.3,Benefactive 어/아 주다/드리다,[어아]/EC (주|드리)/V[VX]
 KOR102,G13.2,Obligation or necessity: 어/아야 되다,[어아]야/EC [하되]/V[VX]
 KOR102,G13.3,Sentence ending (으)ㄹ게요,[을ㄹ]게요?/EF
 KOR102,G14.2,Negative VERB지 못하다,(VV|VX|XSV) 지/EC 못
@@ -58,12 +58,12 @@ KOR105,G5.3,ㄴ/은/는지 알다/모르다,지/(EC|NNG) [^(\n|EC|EF)]*(알|모�
 KOR105,G5.4,VERBㄴ/은 지 [시간] 되다,(VV|VX|XSV) [은ㄴ]/ETM 지/NNB [^(\n|EC|EF)]*(오래되/VV|되/VV)
 KOR105,G5.5,Transference of action/state: 다가,/(VV|VX|XSV) 다가?/EC
 KOR105,G6.3,VERB기로 하다,"기/.{2,3} 로/JKB 하/V[VX]"
-KOR105,G6.4.1,indirect speech - statement,다고/EC
-KOR105,G6.4.1,indirect speech - statement,(NN.|VCP|VCN|걸/VV) 라고/EC
-KOR105,G6.4.2,indirect speech - question,냐고/EC
-KOR105,G6.4.3,indirect speech - command,[^걸달]/V. (시/EP )?라고/EC
-KOR105,G6.4.4,indirect speech - suggestion,자고/E[CF]
-KOR105,G6.4.5,indirect speech - request,달/VV 라고/EC
+KOR105,G6.4.1,Indirect - statement,다고/EC
+KOR105,G6.4.1,Indirect - statement,(NN.|VCP|VCN|걸/VV) 라고/EC
+KOR105,G6.4.2,Indirect - question,냐고/EC
+KOR105,G6.4.3,Indirect speech - command,[^걸달]/V. (시/EP )?라고/EC
+KOR105,G6.4.4,Indirect speech - suggestion,자고/E[CF]
+KOR105,G6.4.5,Indirect speech - request,달/VV 라고/EC
 KOR105,G6.5,아무리 ADJ/VERB어/아도,아무리/MAG [^(\n|EF)]*[어아]도/EC
 KOR105,G7.1,ADJ어/아 보이다,/(VA|XSA|VCP|VCN) [어아]/EC 보이/VV
 KOR105,G7.3,VERB어/아 있다,[어아]/EC 있/V.
