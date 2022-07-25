@@ -7,7 +7,7 @@ KOR102,G10.1,Connective: (으)ㄴ/는데,([^없]/VA|[^있]/VA|XSA|VCP|VCN) [은�
 KOR102,G10.2,Expressing desire: VERB고 싶다/싶어 하다,(VV|VX|XSV|VCP) 고/EC 싶/VX
 KOR102,G10.3,Sentence ending (으)ㄴ/는데요,(VV|VX|XSV|없/VA|[밌있]/VA) 는데요?/EF
 KOR102,G10.3,Sentence ending (으)ㄴ/는데요,([^없]/VA|[^있]/VA|XSA|VCP|VCN) [은ㄴ]데요?/EF
-KOR102,G10.4/G12.1,Connective: 어서/아서,[어아]서/EC
+KOR102,G10.4_G12.1,Connective: 어서/아서,[어아]서/EC
 KOR102,G10.5,Noun-modifying VERB는,(VV|VX|XSV) 는/ETM
 KOR102,G11.1,Progressive VERB고 있다,고/EC 있/VX
 KOR102,G11.2,Intentional (으)ㄹ래요(?),[을ㄹ]래요?/E[FC]
@@ -15,7 +15,7 @@ KOR102,G11.4,Asking opinion: ~(으)ㄹ까요?,[을ㄹ]까요?/EF
 KOR102,G12.2,Conjectural/intentional 겠,겠/EP
 KOR102,G12.3,Sentence ending 네요,네요?/EF
 KOR102,G12.5,Noun-modifying form VERB(으)ㄴ (past),(VV|VX|XSV) [은ㄴ]/ETM
-KOR102,G13.1/G16.3,Benefactive 어/아 주다/드리다,[어아]/EC (주|드리)/V[VX]
+KOR102,G13.1_G16.3,Benefactive 어/아 주다/드리다,[어아]/EC (주|드리)/V[VX]
 KOR102,G13.2,Obligation or necessity: 어/아야 되다,[어아]야/EC [하되]/V[VX]
 KOR102,G13.3,Sentence ending (으)ㄹ게요,[을ㄹ]게요?/EF
 KOR102,G14.2,Negative VERB지 못하다,(VV|VX|XSV) 지/EC 못
