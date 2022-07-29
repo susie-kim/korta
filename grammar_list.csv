@@ -1,62 +1,62 @@
 ﻿Level,No,Grammar,Pattern
 KOR102,G8.1,Seeking agreement: 지요?,지요/EF \?/SF
-KOR102,G9.2,Noun-modifying ADJ(으)ㄴ,([^없]/VA|XSA|VCP|VCN|싶/VX) [은ㄴ]/ETM
+KOR102,G9.2,Noun-modifying ADJ(으)ㄴ,((?<!(없|있))/VA|XSA|VCP|VCN|싶/VX) [은ㄴ]/ETM
 KOR102,G9.5,Connective: 지만,지만/EC
-KOR102,G10.1.1,Connective: (으)ㄴ/는데,(VV|[^싶]/VX|XSV|없/VA|[밌있]/VA) 는데/EC
-KOR102,G10.1.2,Connective: (으)ㄴ/는데,([^없]/VA|[^있]/VA|XSA|VCP|VCN|싶/VX) [은ㄴ]데/EC
-KOR102,G10.2,Expressing desire: VERB고 싶다/싶어 하다,(VV|[^싶]/VX|XSV|VCP) 고/EC 싶/VX
-KOR102,G10.3.1,Sentence ending (으)ㄴ/는데요,(VV|[^싶]/VX|XSV|없/VA|[밌있]/VA) 는데요?/EF
-KOR102,G10.3.2,Sentence ending (으)ㄴ/는데요,([^없]/VA|[^있]/VA|XSA|VCP|VCN|싶/VX) [은ㄴ]데요?/EF
+KOR102,G10.1.1,Connective: (으)ㄴ/는데,(VV|(?<!싶)/VX|XSV|없/VA|[밌있]/VA) 는데/EC
+KOR102,G10.1.2,Connective: (으)ㄴ/는데,((?<!(없|있))/VA|XSA|VCP|VCN|싶/VX) [은ㄴ]데/EC
+KOR102,G10.2,Expressing desire: VERB고 싶다/싶어 하다,(VV|(?<!싶)/VX|XSV|VCP) 고/EC 싶/VX
+KOR102,G10.3.1,Sentence ending (으)ㄴ/는데요,(VV|(?<!싶)/VX|XSV|없/VA|[밌있]/VA) 는데요?/EF
+KOR102,G10.3.2,Sentence ending (으)ㄴ/는데요,((?<!(없|있))/VA|XSA|VCP|VCN|싶/VX) [은ㄴ]데요?/EF
 KOR102,G10.4 (G12.1),Connective: 어서/아서,[어아]서/EC
-KOR102,G10.5,Noun-modifying VERB는,(VV|[^싶]/VX|XSV) 는/ETM
+KOR102,G10.5,Noun-modifying VERB는,(VV|(?<!싶)/VX|XSV) 는/ETM
 KOR102,G11.1,Progressive VERB고 있다,고/EC 있/VX
 KOR102,G11.2,Intentional (으)ㄹ래요(?),[을ㄹ]래요?/E[FC]
 KOR102,G11.4,Asking opinion: ~(으)ㄹ까요?,[을ㄹ]까요?/EF
 KOR102,G12.2,Conjectural/intentional 겠,겠/EP
 KOR102,G12.3,Sentence ending 네요,네요?/EF
-KOR102,G12.5,Noun-modifying VERB(으)ㄴ (past),(VV|[^싶]/VX|XSV) [은ㄴ]/ETM
+KOR102,G12.5,Noun-modifying VERB(으)ㄴ (past),(VV|(?<!싶)/VX|XSV) [은ㄴ]/ETM
 KOR102,G13.1 (G16.3),Benefactive 어/아 주다/드리다,[어아]/EC (주|드리)/V[VX]
 KOR102,G13.2,Obligation or necessity: 어/아야 되다,[어아]야/EC [하되]/V[VX]
 KOR102,G13.3,Sentence ending (으)ㄹ게요,[을ㄹ]게요?/EF
-KOR102,G14.2,Negative VERB지 못하다,(VV|VX|XSV) 지/EC 못
+KOR102,G14.2,Negative VERB지 못하다,(VV|(?<!싶)/VX|XSV) 지/EC 못
 KOR102,G14.3,Adverbial 게,게/EC
-KOR102,G14.4,Negative command VERB지 말다/마세요,(VV|VX|XSV) 지/EC 말/VX
+KOR102,G14.4,Negative command VERB지 말다/마세요,(VV|(?<!싶)/VX|XSV) 지/EC 말/VX
 KOR102,G15.1,Ability or possibility: (으)ㄹ 수 있다/없다,[을ㄹ]/ETM 수/NNB [있없]/V[VAX]
 KOR102,G15.3,While: (으)면서,으?면서/EC
 KOR102,G15.4,Noun-modifying VERB(으)ㄹ (prospective),[을ㄹ]/ETM [^(수|때|거|것|줄|까|뻔)]+/NN.
-KOR102,G15.5,Connective VERB고 나서,(VV|VX|XSV|VCP)고/EC 나서/VV 어/EC
+KOR102,G15.5,Connective VERB고 나서,(VV|(?<!싶)/VX|XSV|VCP)고/EC 나서/VV 어/EC
 KOR102,G16.1,어/아 보다,[어아]/EC 보/V[VX]
 KOR102,G16.2,Connective 기 때문에,기/(ETN|NNP) 때문/NNB
 KOR102,G16.4,Negation: 지 않다,지/EC 않/VX
 KOR102,G16.5,Comparative: 보다 더,(보다/JKB|더/MAG)
-KOR105,G1.1,Change of state: ADJ어/아지다,(VA|VXA) [어아]/EC 지/VX
+KOR105,G1.1,Change of state: ADJ어/아지다,(VA|XSA) [어아]/EC 지/VX
 KOR105,G1.2,Sentence ending 잖아요,잖아요?/E[CF]
 KOR105,G1.3,Noun-modifying 던 (retrospective),던/ETM
 KOR105,G1.4,Expressing wish: (으)면 좋겠다,으?면/EC 좋/VA ([았었]/EP )?겠/EP
 KOR105,G1.5,Expressing time: (으)ㄹ 때,[ㄹ을]/ETM 때/NNG
-KOR105,G2.1,Purpose or intention: VERB(으)려고,(VV|VX|XSV) 으?려고/EC
-KOR105,G2.2,VERB기(가) 쉽다/어렵다,(VV|VX|XSV) 기/ETN [^(\n|EC|EF)]*/MA.$ (어렵|쉽|좋|싫|힘들)/VA
+KOR105,G2.1,Purpose or intention: VERB(으)려고,(VV|(?<!싶)/VX|XSV) 으?려고/EC
+KOR105,G2.2,VERB기(가) 쉽다/어렵다,(VV|(?<!싶)/VX|XSV) 기/ETN [^(\n|EC|EF)]*/MA.$ (어렵|쉽|좋|싫|힘들)/VA
 KOR105,G2.3,N1 말고 N2; V1지 말고 V2,말/VX 고/EC
 KOR105,G2.4.1,Permission: 어/아도 되다,도/EC 되/V[VX]
 KOR105,G2.4.2,Prohibition: (으)면 안 되다,으?면/EC [^(\n|EC|EF)]*안/MAG 되/V[VX]
-KOR105,G2.5.1,ㄴ/은/는/던 것 같다,([^없]/VA|XSA|VCP|VCN|[^있]/VA|싶/VX) [은ㄴ을ㄹ]/ETM [거것]/NNB 같/VA
-KOR105,G2.5.2,ㄴ/은/는/던 것 같다,(VV|[^싶]/VX|XSV|없/VA|[밌있]/VA) [는을ㄹ]/ETM [거것]/NNB 같/VA
-KOR105,G2.5.3,ㄴ/은/는/던 것 같다,(VV|[^싶]/VX|XSV) [은ㄴ]/ETM [거것]/NNB 같/VA
+KOR105,G2.5.1,ㄴ/은/는/던 것 같다,((?<!(없|있))/VA|XSA|VCP|VCN|싶/VX) [은ㄴ을ㄹ]/ETM [거것]/NNB 같/VA
+KOR105,G2.5.2,ㄴ/은/는/던 것 같다,(VV|(?<!싶)/VX|XSV|없/VA|[밌있]/VA) [는을ㄹ]/ETM [거것]/NNB 같/VA
+KOR105,G2.5.3,ㄴ/은/는/던 것 같다,(VV|(?<!싶)/VX|XSV) [은ㄴ]/ETM [거것]/NNB 같/VA
 KOR105,G2.5.4,ㄴ/은/는/던 것 같다,(던/ETM|올/MM) [거것]/NNB 같/VA
-KOR105,G3.1,Change of events: VERB게 되다,(VV|VX|XSV) 게/EC 되/V[VX]
+KOR105,G3.1,Change of events: VERB게 되다,(VV|(?<!싶)/VX|XSV) 게/EC 되/V[VX]
 KOR105,G3.2,Expressing adequacy: (으)면 되다,으?면/EC (안/MAG )?되/V[VX]
 KOR105,G3.3,었/았/ㅆ었,[었/았]/EP 었/EP
 KOR105,G3.4,어/아 본 적이 있다/없다,보/V[VX] ㄴ/ET. 적/NN.
 KOR105,G3.5,Reason or logical sequence: (으)니까,으?니까/E[CF]
-KOR105,G4.1,VERB는 길,(VV|[^싶]/VX|XSV) 는/ETM 길/
+KOR105,G4.1,VERB는 길,(VV|(?<!싶)/VX|XSV) 는/ETM 길/
 KOR105,G4.2,Sentence ending 거든요,거든요?/EF
-KOR105,G4.4,VERB(으)려면,(VV|[^싶]/VX|XSV) 으?려면/EC
+KOR105,G4.4,VERB(으)려면,(VV|(?<!싶)/VX|XSV) 으?려면/EC
 KOR105,G4.5,어/아야지요,야지요?/EF
-KOR105,G5.2.1,은/는 편이다,([^없]/VA|XSA|VCP|VCN|싶/VX) [은ㄴ]/ETM 편/NN. (이/VCP|\w/J.?)
-KOR105,G5.2.2,은/는 편이다,(VV|[^싶]/VX|XSV|없/VA|[밌있]/VA) 는/ETM 편/NN. (이/VCP|\w/J.?)
+KOR105,G5.2.1,은/는 편이다,((?<!(없|있))/VA|XSA|VCP|VCN|싶/VX) [은ㄴ]/ETM 편/NN. (이/VCP|\w/J.?)
+KOR105,G5.2.2,은/는 편이다,(VV|(?<!싶)/VX|XSV|없/VA|[밌있]/VA) 는/ETM 편/NN. (이/VCP|\w/J.?)
 KOR105,G5.3,은/는지 알다/모르다,지/(EC|NNG) [^(\n|EC|EF)]*(알|모르)/VV
-KOR105,G5.4,VERBㄴ/은 지 [시간] 되다,(VV|[^싶]/VX|XSV) [은ㄴ]/ETM 지/NNB [^(\n|EC|EF)]*(오래되/VV|되/VV)
-KOR105,G5.5,Transference of action/state: 다가,/(VV|VX|XSV) 다가?/EC
+KOR105,G5.4,VERBㄴ/은 지 [시간] 되다,(VV|(?<!싶)/VX|XSV) [은ㄴ]/ETM 지/NNB [^(\n|EC|EF)]*(오래되/VV|되/VV)
+KOR105,G5.5,Transference of action/state: 다가,(VV|(?<!싶)/VX|XSV) 다가?/EC
 KOR105,G6.3,VERB기로 하다,"기/.{2,3} 로/JKB 하/V[VX]"
 KOR105,G6.4.1,Indirect - statement,(다고/E[CF]|ㄴ?다는/ETM)
 KOR105,G6.4.1,Indirect - statement,(NN.|VCP|VCN|걸/VV) (라고/E[CF]|라는/EC)
@@ -66,14 +66,14 @@ KOR105,G6.4.4,Indirect speech - suggestion,(자고/E[CF]|자는/ETM)
 KOR105,G6.4.5,Indirect speech - request,달/VV (라고/E[CF]|라는/ETM)
 KOR105,G6.5,아무리 ADJ/VERB어/아도,아무리/MAG [^(\n|EF)]*[어아]도/EC
 KOR105,G7.1,ADJ어/아 보이다,/(VA|XSA|VCP|VCN|싶/VX) [어아]/EC 보이/VV
-KOR105,G7.3,VERB어/아 있다,[어아]/EC 있/V.
+KOR105,G7.3,VERB어/아 있다,(VV|(?<!싶)/VX|XSV) [어아]/EC 있/V.
 KOR105,G7.4,어/아 가지고,[어아]/EC 가지
-KOR105,G7.5,VERB는 데(에),/(VV|VX|XSV) 는/ETM 데/
+KOR105,G7.5,VERB는 데(에),(VV|(?<!싶)/VX|XSV) 는/ETM 데/
 KOR107,G8.1,지?,"지/.{2,3} \?/SF"
 KOR107,G8.2,ㄹ/을 테니까,ㄹ?테니까/EC
-KOR107,G8.3,VERB느라고,(VV|[^싶]/VX|XSV) 느라고?/E[CF]
-KOR107,G8.4.1,은/는/을 줄 알다/모르다,([^없]/VA|XSA|VCP|VCN|[^있]/VA) [은ㄴ을ㄹ]/ETM (줄/NNB|주/VX ㄹ/ETM) [^(\n|EC)]*(알|모르)
-KOR107,G8.4.2,은/는/을 줄 알다/모르다,(VV|[^싶]/VX|XSV|없/VA|[밌있]/VA) [는을ㄹ]/ETM (줄/NNB|주/VX ㄹ/ETM) [^(\n|EC)]*(알|모르)
+KOR107,G8.3,VERB느라고,(VV|(?<!싶)/VX|XSV) 느라고?/E[CF]
+KOR107,G8.4.1,은/는/을 줄 알다/모르다,((?<!(없|있))/VA|XSA|VCP|VCN|[^있]/VA) [은ㄴ을ㄹ]/ETM (줄/NNB|주/VX ㄹ/ETM) [^(\n|EC)]*(알|모르)
+KOR107,G8.4.2,은/는/을 줄 알다/모르다,(VV|(?<!싶)/VX|XSV|없/VA|[밌있]/VA) [는을ㄹ]/ETM (줄/NNB|주/VX ㄹ/ETM) [^(\n|EC)]*(알|모르)
 KOR107,G8.4.3,은/는/을 줄 알다/모르다,(VV|VX|XSV) [은ㄴ]/ETM (줄/NNB|주/VX ㄹ/ETM) [^(\n|EC)]*(알|모르)
 KOR107,G8.4.4,은/는/을 줄 알다/모르다,올/MM (줄/NNB|주/VX ㄹ/ETM) [^(\n|EC)]*(알|모르)
 KOR107,G9.2,게 하다,(VCP|VCN|VV|VX|VA|XSA|XSV) 게/EC 하/V[VX]
@@ -82,33 +82,33 @@ KOR107,G10.1,었/았다가,[었았]/EP 다가?/EC
 KOR107,G10.2,더라고요,더라고?요?/E[CF]
 KOR107,G10.3,ADJ어/아서 죽겠다,(VA|XSA|VCP|싶/VX) 어/EC 죽/VV 겠/EP
 KOR107,G10.4,기도 하다,기/ETN 도/JX 하/V[VX]
-KOR107,G10.5,VERB어/아 버리다,(VV|[^싶]/VX|XSV) [어아]/EC 버리
-KOR107,G11.1.1,나/ㄴ가/(으)ㄴ가 보다,(VA|XSA|VCP|VCN|[^있]/VA|싶/VX) (시/EP )?(은가|ㄴ가)/EC 보/V
-KOR107,G11.1.2,나/ㄴ가/(으)ㄴ가 보다,(VV|VX|XSV|없/VA|[밌있]/VA) 나/EC 보/V
+KOR107,G10.5,VERB어/아 버리다,(VV|(?<!싶)/VX|XSV) [어아]/EC 버리
+KOR107,G11.1.1,나/ㄴ가/(으)ㄴ가 보다,(VA|XSA|VCP|VCN|(?<!(없|있))/VA|싶/VX) (시/EP )?(은가|ㄴ가)/EC 보/V
+KOR107,G11.1.2,나/ㄴ가/(으)ㄴ가 보다,(VV|VX|XSV|[밌있없]/VA) 나/EC 보/V
 KOR107,G11.1.3,나/ㄴ가/(으)ㄴ가 보다,[었/았]/EP 나/EC 보/V
 KOR107,G11.2,기는 (하)다,기/ETN [ㄴ는]/JX [^(\n|EC|EF)]*/(VCP|VCN|VV|VX|VA|XSA|XSV)
 KOR107,G11.3,거나,거나/EC
-KOR107,G11.4.1,Hearsay,(VCP|VCN|VA|XSA|[밌있]/VA|있/VX|싶/VX) 대요?/E[CF] [.!?]/SF
-KOR107,G11.4.2,Hearsay,(VV|[^싶]/VX|XSV|[^있]/V[VX]) [는ㄴ]대요?/E[CF] [.!?]/SF
+KOR107,G11.4.1,Hearsay,(VCP|VCN|VA|XSA|있/VX|싶/VX) 대요?/E[CF] [.!?]/SF
+KOR107,G11.4.2,Hearsay,(VV|(?<!싶)/VX|XSV|(?<!있)/V[VX]) [는ㄴ]대요?/E[CF] [.!?]/SF
 KOR107,G11.4.3,Hearsay,/EP 대요?/E[CF] [.!?]/SF
 KOR107,G11.4.4,Hearsay,(이/VCP|아니/VCN|걸/VV|/NN.|/NP) 래요?/E[CF]
 KOR107,G11.5,(이)라면,\s라면/EC
-KOR107,G12.1.1,나요/ㄴ가요/은가요?,(VA|XSA|VCP|VCN|[^있]/VA|싶/VX) (시/EP )?(은가|ㄴ가|던가)요?/E[CF]
-KOR107,G12.1.2,나요/ㄴ가요/은가요?,(VV|VX|XSV|없/VA|[밌있]/VA) 나요?/E[CF]
+KOR107,G12.1.1,나요/ㄴ가요/은가요?,((?<!(없|있))/VA|XSA|VCP|VCN|싶/VX) (시/EP )?(은가|ㄴ가|던가)요?/E[CF]
+KOR107,G12.1.2,나요/ㄴ가요/은가요?,(VV|VX|XSV|[밌있없]/VA) 나요?/E[CF]
 KOR107,G12.1.3,나요/ㄴ가요/은가요?,[었/았]/EP 나요?/E[CF]
 KOR107,G12.1.4,나요/ㄴ가요/은가요?,던가요?/E[CF] [.!?]/SF
-KOR107,G12.2,Regret: VERB(으)ㄹ 걸 그랬다,(VV|[^싶]/VX|XSV) [을ㄹ]/ETM 걸/VV ㄹ/ETM 그렇
-KOR107,G12.3,Change of plan: (으)려다가,[ㄹ으]?려다가?/EC
+KOR107,G12.2,Regret: VERB(으)ㄹ 걸 그랬다,(VV|(?<!싶)/VX|XSV) [을ㄹ]/ETM 걸/VV ㄹ/ETM 그렇
+KOR107,G12.3,Change of plan: (으)려다가,(VV|(?<!싶)/VX|XSV) [ㄹ으]?려다가?/EC
 KOR107,G12.4,군(요)/구나,(구나|군요?)/E[CF]
 KOR107,G12.5,Infinite pronouns (이)든지,(NP|NNG) (이/VCP )?든지/EC
 KOR107,G13.1,ㄴ/은/는데도,[ㄴ은는]데/EC 도/JX
 KOR107,G13.2,The more: (으)면 (으)ㄹ수록,[ㄹ을]수록/EC
-KOR107,G13.3,Almost happened: VERB(으)ㄹ 뻔하다,/(VV|[^싶]/VX|XSV|VA|XSA) [ㄹ을]/ETM 뻔
+KOR107,G13.3,Almost happened: VERB(으)ㄹ 뻔하다,(VV|(?<!싶)/VX|XSV|VA|XSA) [ㄹ을]/ETM 뻔
 KOR107,G13.4,었/았더니,[었았]/EP 더니/EC
 KOR107,G14.1,Confirming information: 다/(이)라면서?,[다라](면서요?|며)/EF [.!?]/SF
-KOR107,G14.2,VERB자마자,/(VV|[^싶]/VX|XSV) 자마자/EC
+KOR107,G14.2,VERB자마자,(VV|(?<!싶)/VX|XSV) 자마자/EC
 KOR107,G14.3,For fear that: (으)ㄹ까 봐,[ㄹ을]/ETM 까/NNG 보/V. 아
 KOR107,G14.4,Uncertain clause: (으)ㄴ/는/(으)ㄹ지,[ㄹ을ㄴ는]지/EC
 KOR107,G14.5,었/았으면 하다,[었았]/EP 으면/EC 하/V.
 KOR107,E13.1,N만큼 / (으)ㄴ/는/(으)ㄹ 만큼,만큼/NNB
-KOR107,E13.2,VERBㄴ/는 바람에,(VV|[^싶]/VX|XSV) [ㄴ는]/ETM 바람/
+KOR107,E13.2,VERBㄴ/는 바람에,(VV|(?<!싶)/VX|XSV) [ㄴ는]/ETM 바람/
