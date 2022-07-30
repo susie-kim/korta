@@ -59,11 +59,11 @@ KOR105,G5.4,VERBㄴ/은 지 [시간] 되다,(VV|(?<!싶)/VX|XSV) [은ㄴ]/ETM �
 KOR105,G5.5,Transference of action/state: 다가,(VV|(?<!싶)/VX|XSV) 다가?/EC
 KOR105,G6.3,VERB기로 하다,"기/.{2,3} 로/JKB 하/V[VX]"
 KOR105,G6.4.1,Indirect - statement,(다고/E[CF]|ㄴ?다는/ETM)
-KOR105,G6.4.1,Indirect - statement,(NN.|VCP|VCN|걸/VV) (라고/E[CF]|라는/EC)
-KOR105,G6.4.2,Indirect - question,(냐고/E[CF]|냐는/ETM)
-KOR105,G6.4.3,Indirect speech - command,[^걸달]/V. (시/EP )?(으?라고/E[CF]|으?라는/ETM)
-KOR105,G6.4.4,Indirect speech - suggestion,(자고/E[CF]|자는/ETM)
-KOR105,G6.4.5,Indirect speech - request,달/VV (라고/E[CF]|라는/ETM)
+KOR105,G6.4.2,Indirect - statement,(NN.|VCP|VCN|걸/VV) (라고/E[CF]|라는/EC)
+KOR105,G6.4.3,Indirect - question,(냐고/E[CF]|냐는/ETM)
+KOR105,G6.4.4,Indirect speech - command,[^걸달]/V. (시/EP )?(으?라고/E[CF]|으?라는/ETM)
+KOR105,G6.4.5,Indirect speech - suggestion,(자고/E[CF]|자는/ETM)
+KOR105,G6.4.6,Indirect speech - request,달/VV (라고/E[CF]|라는/ETM)
 KOR105,G6.5,아무리 ADJ/VERB어/아도,아무리/MAG [^(\n|EF)]*[어아]도/EC
 KOR105,G7.1,ADJ어/아 보이다,/(VA|XSA|VCP|VCN|싶/VX) [어아]/EC 보이/VV
 KOR105,G7.3,VERB어/아 있다,(VV|(?<!싶)/VX|XSV) [어아]/EC 있/V.
