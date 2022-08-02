@@ -58,9 +58,9 @@ KOR105,I.G5.3..G14.4,Uncertain clause: (으)ㄴ/는/(으)ㄹ지,[ㄹ을은ㄴ는
 KOR105,I.G5.4,VERBㄴ/은 지 [시간] 되다,(VV|(?<!싶)/VX|XSV) [은ㄴ]/ETM 지/NNB [^(\n|EC|EF)]*(오래되/VV|되/VV)
 KOR105,I.G5.5,Transference of action/state: 다가,(VV|(?<!싶)/VX|XSV) 다가?/EC
 KOR105,I.G6.3,VERB기로 하다,"기/.{2,3} 로/JKB 하/V[VX]"
-KOR105,I.G6.4.1,Indirect - statement,(다고/E[CF]|ㄴ?다는/ETM)
-KOR105,I.G6.4.2,Indirect - statement,(NN.|VCP|VCN|걸/VV) (라고/E[CF]|라는/(EC|ETM))
-KOR105,I.G6.4.3,Indirect - question,(냐고/E[CF]|냐는/ETM)
+KOR105,I.G6.4.1,Indirect - statement,([ㄴ는]다고/E[CF]|[ㄴ는]다는/ETM)
+KOR105,I.G6.4.2,Indirect - statement,(NN.|VCP|VCN|걸/VV) (라고/E[CF]|라는/E)
+KOR105,I.G6.4.3,Indirect - question,(느?냐고/E[CF]|느?냐는/ETM)
 KOR105,I.G6.4.4,Indirect speech - command,[^걸달]/V. (시/EP )?(으?라고/E[CF]|으?라는/ETM)
 KOR105,I.G6.4.5,Indirect speech - suggestion,(자고/E[CF]|자는/ETM)
 KOR105,I.G6.4.6,Indirect speech - request,달/VV (라고/E[CF]|라는/ETM)
